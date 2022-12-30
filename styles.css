@@ -41,13 +41,16 @@ h2 {
   font-size: 20px;
 }
 
+body {
+  background: var(--bg);
+}
+
 #root {
   width: 100%;
   max-width: 420px;
   padding: 24px;
   margin: 0 auto;
   font-feature-settings: "onum" 1;
-  background: var(--bg);
 }
 
 p {
