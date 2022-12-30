@@ -47,10 +47,17 @@ body {
 
 #root {
   width: 100%;
-  max-width: 420px;
+  max-width: 640px;
   padding: 24px;
   margin: 0 auto;
   font-feature-settings: "onum" 1;
+}
+
+@media screen and (min-width: 1025px) {
+  #root {
+    padding: 48px;
+    margin: 0;
+  }
 }
 
 p {
